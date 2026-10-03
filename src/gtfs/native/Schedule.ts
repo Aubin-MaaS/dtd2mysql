@@ -172,10 +172,10 @@ export class Schedule implements OverlayRecord {
     // identify the Merseyrail lines
     if (prefix === 'ME') {
       if (['HNX', 'LPY', 'SDL', 'BAH', 'HLR', 'SOP', 'KKD', 'WAO', 'MAG', 'OMS', 'RIL', 'KIR', 'HBL', 'AIN'].some(callback)) {
-        return {route_id : 'ME_Northern', name : 'Northern line', colour : 0x0266b2};
+        return {route_id : 'ME_Northern', name : 'Northern', colour : 0x0266b2};
       }
       if (['BKQ', 'NBN', 'BID', 'WKI', 'RFY', 'PSL', 'HOO', 'ELP', 'CTR'].some(callback)) {
-        return {route_id : 'ME_Wirral', name : 'Wirral line', colour : 0x00a94f};
+        return {route_id : 'ME_Wirral', name : 'Wirral', colour : 0x00a94f};
       }
     }
 
